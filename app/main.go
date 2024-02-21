@@ -18,8 +18,8 @@ func main() {
 	r.HandleFunc("/user/{id}", DeleteUser).Methods("DELETE")
 
 	// Запуск сервера
-	fmt.Println("Server is running on port 8000")
-	http.ListenAndServe(":8000", r)
+	fmt.Println("Server is running on port 8080")
+	http.ListenAndServe(":8080", r)
 }
 
 // Обработчики
