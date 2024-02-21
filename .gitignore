@@ -21,3 +21,6 @@
 go.work
 
 .idea
+
+# бинарные файлы
+/app/bin/
